@@ -167,17 +167,17 @@ namespace Sprainkle
                     break;
                 case Presets.Enhanced:
                     SetDisplay(false, true);
-                    Instance.General_MinimumSlope               = 70;
+                    Instance.General_MinimumSlope               = 40;
                     Instance.General_MinimumSlopeIncrease       = 0.25f;
-                    Instance.General_EncumberanceChance         = 0f;
-                    Instance.General_ExhaustionChance           = 0f;
+                    Instance.General_EncumberanceChance         = 0.1f;
+                    Instance.General_ExhaustionChance           = 0.1f;
                     Instance.General_SprintingChance            = 0f;
                     Instance.General_CrouchingChance            = 100f;
                     Instance.General_MinSecondsRisk             = 60f;
                     Instance.General_WristMovementChance        = 0f;
 
-                    Instance.General_SprintUIOn                 = 59f;
-                    Instance.General_SprintUIOff                = 0f;
+                    Instance.General_SprintUIOn                 = 1f;
+                    Instance.General_SprintUIOff                = 1f;
 
                     Instance.AnkleSettings_Duration_Minimum     = 0f;
                     Instance.AnkleSettings_Duration_Maximum     = 48f;
